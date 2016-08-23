@@ -27,7 +27,7 @@ def exp(label,target='USA'):
 expl = map(exp, labels)
 colors = ['pink','red','yellow','green','orange','blue','violet','indigo','purple']
 plt.pie(quants,
-        exp = expl,
+        explode = expl,
         labels = labels,
         autopct = "%1.2f%%",
         pctdistance = 0.8,
